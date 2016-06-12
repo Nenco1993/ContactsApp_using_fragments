@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Contacts_Add">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etFirstNameID" android:layout_gravity="center_horizontal|top"
+                android:layout_marginTop="55dp" android:hint="enter first name"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etLastNameID" android:layout_gravity="center_horizontal|top"
+                android:hint="enter last name"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etPhoneNumberID" android:layout_gravity="center_horizontal|top"
+                android:hint="enter phone number"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etEmailID" android:layout_gravity="center_horizontal|top" android:hint="enter email"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:id="@+id/bSaveID" android:layout_gravity="center"/>
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/tvChangeMeID" android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="70dp"/>
+
+
+</FrameLayout>

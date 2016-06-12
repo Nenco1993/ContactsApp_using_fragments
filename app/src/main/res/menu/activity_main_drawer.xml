@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_call"
+                android:icon="@drawable/my_call_icon"
+                android:title="Call"/>
+        <item
+                android:id="@+id/nav_adddcontact"
+                android:icon="@drawable/my_add_icon"
+                android:title="Add contact"/>
+        <item
+                android:id="@+id/nav_allcontacts"
+                android:icon="@drawable/my_allfriends_icon"
+                android:title="All contacts"/>
+        <item
+                android:id="@+id/nav_favorites"
+                android:icon="@drawable/my_favorites_icon"
+                android:title="Favorites"/>
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/my_about_icon"
+                    android:title="About"/>
+            <item
+                    android:id="@+id/nav_exit"
+                    android:icon="@drawable/my_exit_icon"
+                    android:title="Exit"/>
+        </menu>
+    </item>
+
+</menu>

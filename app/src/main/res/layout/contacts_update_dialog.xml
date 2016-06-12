@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etFirstNameUpdateID" android:layout_gravity="center_horizontal|top"
+            android:hint="enter first name"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etLastNameUpdateID" android:layout_gravity="center_horizontal|top"
+            android:hint="enter last name"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPhoneNumberUpdateID" android:layout_gravity="center_horizontal|top"
+            android:hint="enter phone number"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etEmailUpdateID" android:layout_gravity="center_horizontal|top" android:hint="enter email"/>
+
+
+</LinearLayout>
